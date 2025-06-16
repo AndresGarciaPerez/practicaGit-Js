@@ -3,3 +3,11 @@ Comandos basicos de git
 
 git init : Crea un repositorio local de git 
 git add . : Agregar el directorio y todos sus archivos al directorio / o agrega los cambios
+git commit -M "cambio color de pagina"  : Crea un commit y puedo agregar un mensaje para identificarlo
+git branch -M main : cambio a la rama principal local (puedom cambiar a otras ramas)
+
+// ---- EL SIGUIENTE COMANDO VINVULA MI REPO LOCAL CON UN REPOSITORIO DE GITHUB QUE CREE --- //
+git remote add origin https://github.com/AndresGarciaPerez/practicaGit-Js.git
+
+// ---- EL SIGUIENTE COMANDO GUARDA LOS CAMBIOS DE MI REPOSITORIO LOCAL EN GUTHUB ---
+git push -u origin main
