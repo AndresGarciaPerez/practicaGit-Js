@@ -1,0 +1,5 @@
+
+Comandos basicos de git
+
+git init : Crea un repositorio local de git 
+git add . : Agregar el directorio y todos sus archivos al directorio / o agrega los cambios
