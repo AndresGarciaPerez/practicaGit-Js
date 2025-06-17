@@ -1,5 +1,5 @@
 
-Comandos basicos de git
+--------------- COMANDOS BASICOS DE GIT -----------------
 
 git init : Crea un repositorio local de git 
 git add . : Agregar el directorio y todos sus archivos al directorio / o agrega los cambios
@@ -11,3 +11,7 @@ git remote add origin https://github.com/AndresGarciaPerez/practicaGit-Js.git
 
 // ---- EL SIGUIENTE COMANDO GUARDA LOS CAMBIOS DE MI REPOSITORIO LOCAL EN GUTHUB ---
 git push -u origin main
+
+
+
+

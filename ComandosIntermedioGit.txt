@@ -1,0 +1,51 @@
+
+------------------ COMANDOS INTERMEDIO DE GIT ------------------
+
+GIT LOG
+
+git log:  Permite ver el historial de commit, muestra quién hizo qué, cuándo y en qué commit
+git log --oneline:  Ver el log de forma mas simplificada
+
+git log 2-Operadores.js:  Muestra el hostorial de un archivo en especifico
+
+git log --oneline --graph --all:  Esto te muestra visualmente cómo están conectados los commits y ramas.
+
+git log --grep="elimino" : Busca en el historial algun commit que contenga el texto especificado
+
+
+git fetch:  Descarga los cambios del repositorio remoto 
+git merge:  Funciona los cambios que descargue con git fetch y los funciona con mi repositorio local
+
+
+GIT PULL 
+
+git pull origin main:  recibe cambios desde la rama principal 
+
+
+
+
+
+GIT BRANCH
+
+git branch: muestra las ramas disponibles
+
+git branch nueva-rama:  Crear una nueva rama
+
+git checkout nueva-rama: cambiar a otra rama
+
+git merge rama-secundaria:  funciona la rama actual con otra
+
+
+
+DESHACER CAMBIOS:
+
+git restore archivo.js  :  Revierte los cambios no confirmados en ese archivo
+
+git reset --soft HEAD~1  :   Deshace el último commit pero conserva los cambios en staging.
+
+git reset --hard HEAD~1   :   Elimina el último commit sin dejar rastro.
+
+
+
+
+
