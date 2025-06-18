@@ -1,0 +1,14 @@
+
+
+
+git stash : Guarda los cambios temporalmente
+
+
+
+
+Aplica los cambios remotos y luego tus commits locales encima, como si todo se hubiera hecho seguido. 
+esto es muy util cuando tengo problemas si al hacer git push me da error debido a que no tengo descargados
+los ultimos cambios de mi rama remota en mi rama local, entonces al ejecutar el comando de abajo sigo como si nada paso
+y solo ejecuto git push, esto evita que se me genere otro commit y puedo tener mis commit -m ordenados
+
+git pull origin main --rebase    	

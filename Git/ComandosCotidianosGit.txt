@@ -1,0 +1,21 @@
+
+# Estás en main
+git pull origin main : actualizás tu rama
+
+# Hacés cambios
+git add .
+git commit -m "Cambios"
+git push origin main     : Subir cambios
+
+
+TRABAJAR EN UNA NUEVA RAMA
+
+git checkout -b ramaNueva   // crea una nueva rama local y nos movemos a ella (git branch nueva rama, git checkout...)
+
+git add .
+git commit -m "Cambios en rama"
+git push origin ramaNueva  : Sube los cambios y crea una nueva rama remota
+
+
+# creás Pull Request en GitHub
+
