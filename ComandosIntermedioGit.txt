@@ -48,4 +48,9 @@ git reset --hard HEAD~1   :   Elimina el último commit sin dejar rastro.
 
 
 
+// CREAR UNA RAMA LOCAL CON EL MISMO NOMBRE DE UNA RAMA REMOTA 
+
+git checkout -b ramaSecundaria origin/ramaSecundaria
+
+
 
